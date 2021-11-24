@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/admin/Downloads/final_project/final_project/app/src/main/res/drawable/bg.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/admin/Downloads/final_project/final_project/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/admin/Downloads/final_project/final_project/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/admin/Downloads/final_project/final_project/app/src/main/res/layout/content_main.xml" value="0.2" />
+        <entry key="..\:/Users/admin/Downloads/final_project/final_project/app/src/main/res/layout/content_main_ui.xml" value="0.2" />
+        <entry key="..\:/Users/admin/Downloads/final_project/final_project/app/src/main/res/layout/khoa_hoc_cua_toi.xml" value="0.2" />
+        <entry key="..\:/Users/admin/Downloads/final_project/final_project/app/src/main/res/layout/signup_ui.xml" value="0.1" />
+        <entry key="..\:/Users/admin/Downloads/final_project/final_project/app/src/main/res/menu/ex_menu.xml" value="0.3333333333333333" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/bg.xml" value="0.20052083333333334" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/ic_baseline_copyright_24.xml" value="0.17824074074074073" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.17824074074074073" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.17824074074074073" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.17824074074074073" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.1" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.17824074074074073" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/ic_baseline_vpn_key_24.xml" value="0.17824074074074073" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/login_bg.xml" value="0.20052083333333334" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/selection.xml" value="0.150390625" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/selection2.xml" value="0.17824074074074073" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/selection3.xml" value="0.17824074074074073" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/selection4.xml" value="0.17824074074074073" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/selection5.xml" value="0.17824074074074073" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/selection6.xml" value="0.17824074074074073" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/selection7.xml" value="0.17824074074074073" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/layout/ccc_main.xml" value="0.1638888888888889" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/layout/content_main_ui.xml" value="0.22" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/layout/huawei_activity.xml" value="0.3333333333333333" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/layout/java_main.xml" value="0.1638888888888889" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/layout/js_main.xml" value="0.22" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/layout/main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/layout/signup_ui.xml" value="0.5" />
+        <entry key="..\:/Workspace_android/MyApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.17824074074074073" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainContentActivity"
+    android:background="#F8C9BB"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/tvmenubar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:layout_marginBottom="1dp"-->
+<!--        android:background="@drawable/selection"-->
+<!--        tools:ignore="MissingConstraints">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imgmenu"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="3dp"-->
+<!--            app:srcCompat="@drawable/ic_baseline_menu_24"></ImageView>-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imgserch"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_toLeftOf="@+id/imgnotification"-->
+        <!--            android:paddingTop="8dp"-->
+        <!--            android:paddingRight="10dp"-->
+        <!--            app:srcCompat="@drawable/ic_baseline_search_24"></ImageView>-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imgnotification"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:paddingTop="8dp"-->
+        <!--            app:srcCompat="@drawable/ic_baseline_notifications_24">-->
+
+        <!--        </ImageView>-->
+
+<!--    </RelativeLayout>-->
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvmenubar"
+        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvmenubar"
+                android:layout_marginBottom="10dp"
+                android:textSize="23sp"
+                android:textColor="@color/black"
+                android:fontFamily="serif-monospace"
+                android:text="With basic courses, this app will help you get theory before practice. "/>
+            <TextView
+                android:id="@+id/js"
+                android:text="Javascript Basic Document P.1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="30dp"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/selection5">
+            </TextView>
+
+            <TextView
+                android:id="@+id/ccc"
+                android:text="C++ Basic Document P.1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/selection3">
+            </TextView>
+
+            <TextView
+                android:id="@+id/c"
+                android:text="C Basic     Document P.1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/selection5">
+            </TextView>
+
+            <TextView
+                android:id="@+id/sql"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/selection3"
+                android:gravity="center_vertical"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+                android:text="SQL Basic Document P.1"
+                android:textColor="@color/black"
+                android:textSize="30sp"></TextView>
+
+            <TextView
+                android:id="@+id/python"
+                android:text="Python Basic Document P.1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/selection5">
+            </TextView>
+
+            <TextView
+                android:id="@+id/java"
+                android:text="Java Basic Document P.1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/selection3">
+            </TextView>
+
+            <TextView
+                android:id="@+id/ojc"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/selection5"
+                android:gravity="center_vertical"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+                android:text="Object-C Basic Document P.1"
+                android:textColor="@color/black"
+                android:textSize="30sp"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

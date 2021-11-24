@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="sign_in_btn">sign in</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="creat_an_account">Creat an account</string>
+    <string name="copyright_by_me">Copyright by me</string>
+    <string name="or_sign_in_with">or sign in with</string>
+    <string name="javascript">Javascript</string>
+    <string name="ccc">C++</string>
+    <string name="c">C</string>
+    <string name="sql">SQL</string>
+    <string name="java">Java</string>
+    <string name="python">Python</string>
+    <string name="objectc">ObjectC</string>
+</resources>

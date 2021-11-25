@@ -3,8 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/admin/Downloads/Final_Android/final_android/app/src/main/res/layout/abc.xml" value="0.2" />
-        <entry key="..\:/Users/admin/Downloads/Final_Android/final_android/app/src/main/res/layout/content_main_ui.xml" value="0.2" />
         <entry key="..\:/Users/admin/Downloads/final_project/final_project/app/src/main/res/drawable/bg.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/admin/Downloads/final_project/final_project/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/admin/Downloads/final_project/final_project/app/src/main/res/layout/activity_main.xml" value="0.2" />
@@ -13,6 +11,16 @@
         <entry key="..\:/Users/admin/Downloads/final_project/final_project/app/src/main/res/layout/khoa_hoc_cua_toi.xml" value="0.2" />
         <entry key="..\:/Users/admin/Downloads/final_project/final_project/app/src/main/res/layout/signup_ui.xml" value="0.1" />
         <entry key="..\:/Users/admin/Downloads/final_project/final_project/app/src/main/res/menu/ex_menu.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/admin/Downloads/final_project/final_project/final_project/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/admin/Downloads/final_project/final_project/final_project/app/src/main/res/layout/activity_quiz.xml" value="0.2" />
+        <entry key="..\:/Users/admin/Downloads/final_project/final_project/final_project/app/src/main/res/layout/c_quiz.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/admin/Downloads/final_project/final_project/final_project/app/src/main/res/layout/ccc_main.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/admin/Downloads/final_project/final_project/final_project/app/src/main/res/layout/content_main_ui.xml" value="0.2" />
+        <entry key="..\:/Users/admin/Downloads/final_project/final_project/final_project/app/src/main/res/layout/java_main.xml" value="0.2" />
+        <entry key="..\:/Users/admin/Downloads/final_project/final_project/final_project/app/src/main/res/layout/js_main.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/admin/Downloads/final_project/final_project/final_project/app/src/main/res/layout/js_quiz.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/admin/Downloads/final_project/final_project/final_project/app/src/main/res/layout/signup_ui.xml" value="0.2" />
+        <entry key="..\:/Users/admin/Downloads/final_project/final_project/final_project/app/src/main/res/menu/ex_menu.xml" value="0.3333333333333333" />
         <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/bg.xml" value="0.20052083333333334" />
         <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/ic_baseline_copyright_24.xml" value="0.17824074074074073" />
         <entry key="..\:/Workspace_android/MyApp/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.17824074074074073" />

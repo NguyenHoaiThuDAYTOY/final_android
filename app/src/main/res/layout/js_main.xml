@@ -5,58 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainJsActivity"
-    android:background="#fff"
+    android:background="#F8C9BB"
     android:scrollbarAlwaysDrawVerticalTrack="true">
 
-    <RelativeLayout
-        android:id="@+id/tvmenubar"
-        android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:layout_marginBottom="1dp"
-        android:background="#000"
-        tools:ignore="MissingConstraints">
-
-        <ImageView
-            android:id="@+id/imgmenu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="3dp"
-            app:srcCompat="@drawable/ic_baseline_menu_24"></ImageView>
-
-        <ImageView
-            android:id="@+id/imgserch"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toLeftOf="@+id/imgnotification"
-            android:paddingTop="8dp"
-            android:paddingRight="10dp"
-            app:srcCompat="@drawable/ic_baseline_search_24"></ImageView>
-
-        <ImageView
-            android:id="@+id/imgnotification"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:paddingTop="8dp"
-            app:srcCompat="@drawable/ic_baseline_notifications_24">
-
-        </ImageView>
-
-    </RelativeLayout>
-    <TextView
-        android:layout_below="@id/tvmenubar"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-
-        android:text="Javascript Course"
-        android:textColor="#000"
-        android:textSize="30sp"
-        android:gravity="center"></TextView>
     <ScrollView
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/tvmenubar"
         android:layout_marginStart="10dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="10dp"
@@ -77,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 1"
@@ -93,7 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 2"
@@ -108,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 3"
@@ -123,7 +78,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 4"
@@ -138,7 +93,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 5"
@@ -153,7 +108,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 6"
@@ -168,7 +123,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 7"
@@ -183,7 +138,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 8"
@@ -198,7 +153,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 9"
@@ -213,7 +168,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 10"
@@ -228,7 +183,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 11"
@@ -243,7 +198,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 12"
@@ -258,7 +213,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 13"
@@ -273,7 +228,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 14"
@@ -288,7 +243,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 15"
@@ -303,7 +258,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 16"
@@ -318,7 +273,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 17"
@@ -333,7 +288,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 18"
@@ -348,7 +303,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 19"
@@ -364,7 +319,7 @@
                 android:layout_marginBottom="20dp"
                 android:height="50dp"
 
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 20"
@@ -374,6 +329,14 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
 
+            <Button
+                android:id="@+id/quizJs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Quiz"
+                android:layout_below="@id/js20"
+                android:layout_gravity="center"
+                android:background="#D33605"/>
 
         </LinearLayout>
     </ScrollView>

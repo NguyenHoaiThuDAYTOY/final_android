@@ -78,30 +78,17 @@
         android:textColorHint="@color/white"
         android:textSize="25sp" />
 
-    <TextView
-        android:id="@+id/forgotpassword"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btnsignin"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
-        android:paddingStart="15dp"
-        android:text="@string/forgot_password"
-        android:textColor="@color/white"
-        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/creataccount"
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/btnsignin"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_toEndOf="@id/forgotpassword"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="right"
         android:text="@string/creat_an_account"
         android:textColor="@color/white"
         android:textSize="18sp" />
@@ -110,10 +97,10 @@
         android:id="@+id/others"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/forgotpassword"
+        android:layout_below="@id/creataccount"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         android:text="Or sign in with"
         android:textColor="@color/white" />
 

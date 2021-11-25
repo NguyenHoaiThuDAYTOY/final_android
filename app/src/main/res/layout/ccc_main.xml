@@ -4,59 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainJsActivity"
-    android:background="#fff"
+    tools:context=".MainCccActivity"
+    android:background="#F8C9BB"
     android:scrollbarAlwaysDrawVerticalTrack="true">
 
-    <RelativeLayout
-        android:id="@+id/tvmenubar"
-        android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:layout_marginBottom="1dp"
-        android:background="#000"
-        tools:ignore="MissingConstraints">
-
-        <ImageView
-            android:id="@+id/imgmenu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="3dp"
-            app:srcCompat="@drawable/ic_baseline_menu_24"></ImageView>
-
-        <ImageView
-            android:id="@+id/imgserch"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toLeftOf="@+id/imgnotification"
-            android:paddingTop="8dp"
-            android:paddingRight="10dp"
-            app:srcCompat="@drawable/ic_baseline_search_24"></ImageView>
-
-        <ImageView
-            android:id="@+id/imgnotification"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:paddingTop="8dp"
-            app:srcCompat="@drawable/ic_baseline_notifications_24">
-
-        </ImageView>
-
-    </RelativeLayout>
-    <TextView
-        android:layout_below="@id/tvmenubar"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-
-        android:text="C++ Course"
-        android:textColor="#000"
-        android:textSize="30sp"
-        android:gravity="center"></TextView>
     <ScrollView
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/tvmenubar"
         android:layout_marginStart="10dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="10dp"
@@ -72,12 +27,12 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/js1"
+                android:id="@+id/c1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 1"
@@ -88,12 +43,12 @@
                 android:paddingStart="10dp"/>
 
             <TextView
-                android:id="@+id/js2"
+                android:id="@+id/c2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 2"
@@ -103,12 +58,12 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
             <TextView
-                android:id="@+id/js3"
+                android:id="@+id/c3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 3"
@@ -118,12 +73,12 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
             <TextView
-                android:id="@+id/js4"
+                android:id="@+id/c4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 4"
@@ -133,12 +88,12 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
             <TextView
-                android:id="@+id/js5"
+                android:id="@+id/c5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 5"
@@ -148,12 +103,12 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
             <TextView
-                android:id="@+id/js6"
+                android:id="@+id/c6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 6"
@@ -163,12 +118,12 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
             <TextView
-                android:id="@+id/js7"
+                android:id="@+id/c7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 7"
@@ -178,12 +133,12 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
             <TextView
-                android:id="@+id/js8"
+                android:id="@+id/c8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 8"
@@ -193,12 +148,12 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
             <TextView
-                android:id="@+id/js9"
+                android:id="@+id/c9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 9"
@@ -208,12 +163,12 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
             <TextView
-                android:id="@+id/js10"
+                android:id="@+id/c10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 10"
@@ -223,12 +178,12 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
             <TextView
-                android:id="@+id/js11"
+                android:id="@+id/c11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 11"
@@ -238,12 +193,12 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
             <TextView
-                android:id="@+id/js12"
+                android:id="@+id/c12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 12"
@@ -253,12 +208,12 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
             <TextView
-                android:id="@+id/js13"
+                android:id="@+id/c13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 13"
@@ -268,12 +223,12 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
             <TextView
-                android:id="@+id/js14"
+                android:id="@+id/c14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 14"
@@ -283,12 +238,12 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
             <TextView
-                android:id="@+id/js15"
+                android:id="@+id/c15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 15"
@@ -298,12 +253,12 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
             <TextView
-                android:id="@+id/js16"
+                android:id="@+id/c16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 16"
@@ -313,12 +268,12 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
             <TextView
-                android:id="@+id/js17"
+                android:id="@+id/c17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 17"
@@ -328,12 +283,12 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
             <TextView
-                android:id="@+id/js18"
+                android:id="@+id/c18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 18"
@@ -343,12 +298,12 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
             <TextView
-                android:id="@+id/js19"
+                android:id="@+id/c19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:height="50dp"
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 19"
@@ -358,13 +313,13 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
             <TextView
-                android:id="@+id/js20"
+                android:id="@+id/c20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:height="50dp"
 
-                android:background="#ccc"
+                android:background="#EAE4D1"
                 android:drawablePadding="15dp"
                 android:gravity="center_vertical"
                 android:text="Lesson 20"
@@ -374,7 +329,14 @@
                 android:textColor="#000"
                 android:paddingStart="10dp"/>
 
-
+            <Button
+                android:id="@+id/quizC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Quiz"
+                android:layout_below="@id/c20"
+                android:layout_gravity="center"
+                android:background="#D33605"/>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

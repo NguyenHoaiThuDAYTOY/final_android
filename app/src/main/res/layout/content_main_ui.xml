@@ -49,7 +49,6 @@
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/tvmenubar"
         android:layout_margin="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -57,7 +56,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
             android:orientation="vertical">
@@ -100,8 +99,8 @@
             </TextView>
 
             <TextView
-                android:id="@+id/c"
-                android:text="C Basic     Document P.1"
+                android:id="@+id/java"
+                android:text="Java Basic Document P.1"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:paddingLeft="60dp"
@@ -114,11 +113,25 @@
             </TextView>
 
             <TextView
+                android:id="@+id/c"
+                android:text="C Basic     Document P.1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/selection3">
+            </TextView>
+
+            <TextView
                 android:id="@+id/sql"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_marginBottom="20dp"
-                android:background="@drawable/selection3"
+                android:background="@drawable/selection5"
                 android:gravity="center_vertical"
                 android:paddingLeft="60dp"
                 android:paddingRight="60dp"
@@ -137,37 +150,9 @@
                 android:textColor="@color/black"
                 android:gravity="center_vertical"
                 android:layout_marginBottom="20dp"
-                android:background="@drawable/selection5">
-            </TextView>
-
-            <TextView
-                android:id="@+id/java"
-                android:text="Java Basic Document P.1"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:paddingLeft="60dp"
-                android:paddingRight="60dp"
-                android:textSize="30sp"
-                android:textColor="@color/black"
-                android:gravity="center_vertical"
-                android:layout_marginBottom="20dp"
                 android:background="@drawable/selection3">
             </TextView>
 
-            <TextView
-                android:id="@+id/ojc"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:layout_marginBottom="20dp"
-                android:background="@drawable/selection5"
-                android:gravity="center_vertical"
-                android:paddingLeft="60dp"
-                android:paddingRight="60dp"
-                android:text="Object-C Basic Document P.1"
-                android:textColor="@color/black"
-                android:textSize="30sp"></TextView>
-
         </LinearLayout>
     </ScrollView>
-
 </RelativeLayout>

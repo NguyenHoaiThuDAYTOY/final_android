@@ -8,7 +8,6 @@ import android.view.Menu;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.view.MenuInflater;
-import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -35,8 +34,8 @@ public class MainContentActivity extends AppCompatActivity implements View.OnCli
         switch (item.getItemId()){
             case R.id.dangxuat:
                 Toast.makeText(this, "Đã đăng xuất", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(MainContentActivity.this, MainActivity.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(MainContentActivity.this, MainActivity.class);
+                startActivity(intent1);
                 return  true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -46,6 +45,10 @@ public class MainContentActivity extends AppCompatActivity implements View.OnCli
     private void initView() {
         TextView btnGoToJS = findViewById(R.id.js);
         btnGoToJS.setOnClickListener(this);
+        TextView btnGoToJava = findViewById(R.id.java);
+        btnGoToJava.setOnClickListener(this);
+        TextView btnGoToCcc = findViewById(R.id.ccc);
+        btnGoToCcc.setOnClickListener(this);
     }
 
 
@@ -53,9 +56,19 @@ public class MainContentActivity extends AppCompatActivity implements View.OnCli
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.js:
-                Intent intent2 = new Intent();
-                intent2.setClass(this, MainJsActivity.class);
+                Toast.makeText(this, "Open JavaScript", Toast.LENGTH_SHORT).show();
+                Intent intent2 = new Intent(MainContentActivity.this, MainJsActivity.class);
                 startActivity(intent2);
+                break;
+            case R.id.ccc:
+                Toast.makeText(this, "Open C++", Toast.LENGTH_SHORT).show();
+                Intent intent3 = new Intent(MainContentActivity.this, MainCccActivity.class);
+                startActivity(intent3);
+                break;
+            case R.id.java:
+                Toast.makeText(this, "Open Java", Toast.LENGTH_SHORT).show();
+                Intent intent4 = new Intent(MainContentActivity.this, MainJavaActivity.class);
+                startActivity(intent4);
                 break;
             default:
                 break;

@@ -11,18 +11,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.myapptrannam.R;
 
-public class MainJsActivity extends AppCompatActivity {
+public class MainCccActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.js_main);
-        Button button = findViewById(R.id.quizJs);
+        setContentView(R.layout.ccc_main);
+        Button button = findViewById(R.id.quizC);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainJsActivity.this, "Start Quiz", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(MainJsActivity.this, JsQuiz.class);
+                Toast.makeText(MainCccActivity.this, "Start Quiz", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainCccActivity.this, CQuiz.class);
                 startActivity(intent);
             }
         });
